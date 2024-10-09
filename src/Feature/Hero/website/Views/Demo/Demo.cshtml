@@ -1,0 +1,56 @@
+﻿@using AdaniAir.Feature.Hero.Models
+@model DemoModel 
+        
+< section class="experienceAirportSection">
+<div class="container">
+    <div class="slideBlock">
+        <div class="leftImgSection">
+            <div class="swiper-container2 swiper-container-initialized swiper-container-horizontal">
+                <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+                    <div class="swiper-slide swiper-slide-active" style="width: 919px;">
+                        <img src="assets/images/mumbai-duty-free.png" alt="img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-next" style="width: 919px;">
+                        <img src="assets/images/mumbai-duty-free.png" alt="img">
+                    </div>
+                    <div class="swiper-slide" style="width: 919px;">
+                        <img src="assets/images/mumbai-duty-free.png" alt="img">
+                    </div>
+                </div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            </div>
+        </div>
+        <div class="rightContentSection">
+            <div class="cross-section swiper-container swiper-container-initialized swiper-container-horizontal">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide-active" style="width: 361px;">
+                        <h4>@Model.Heading</h4>
+                        <label>In India we mark and celebrate every rite of passage.</label>
+                        <p>The Artbeat of New India is a progressive approach into the immediate environment and the large context of the airport, the city of Mumbai and of the New India as a whole</p>
+                        <a href="#">View more</a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-next" style="width: 361px;">
+                        <h4>Artbeat of New India</h4>
+                        <label>In India we mark and celebrate every rite of passage.</label>
+                        <p>The Artbeat of New India is a progressive approach into the immediate environment and the large context of the airport, the city of Mumbai and of the New India as a whole</p>
+                        <a href="#">View more</a>
+                    </div>
+                    <div class="swiper-slide" style="width: 361px;">
+                        <h4>Artbeat of New India</h4>
+                        <label>In India we mark and celebrate every rite of passage.</label>
+                        <p>The Artbeat of New India is a progressive approach into the immediate environment and the large context of the airport, the city of Mumbai and of the New India as a whole</p>
+                        <a href="#">View more</a>
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            </div>
+            <div class="swipperButton">
+                <div class="swiper-button-prev4 swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true"></div>
+                <div class="swiper-button-next4" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</section>
